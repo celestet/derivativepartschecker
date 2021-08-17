@@ -11,9 +11,9 @@ int main() {
 
 
 
-    cout << "The variable is x. ENter a number\n";
+    cout << "The variable is x. Enter a number\n";
     cin >> number;
-    cout << "enter an exponent\n";
+    cout << "Enter an exponent\n";
     cin >> exponent;
 
 
@@ -22,10 +22,10 @@ int main() {
 
 
 
-    cout << "the polynomial you entered is " << number << 'x' << "^" << exponent << endl;
+    cout << "The polynomial you entered is " << number << 'x' << "^" << exponent << endl;
 
 
-    cout << "the first derivative of this polynomial is " << endl;
+    cout << "The first derivative of this polynomial is " << endl;
 
     cout << newNumber <<  'x' << "^" << newExponent << endl;
 
@@ -34,11 +34,11 @@ int main() {
 
 
 
-    cout << "the second derivative of this polynomial is " << endl;
+    cout << "The second derivative of this polynomial is " << endl;
 
     cout << newExponent * newNumber << 'x' << "^" << newExponent -1 << endl;
 
-    cout << "the third derivative of this polynomial is " << endl;
+    cout << "The third derivative of this polynomial is " << endl;
 
     cout << thirdE * thirdN << 'x' << "^" << thirdE -1;
 
@@ -46,15 +46,15 @@ int main() {
 }
 
 /*sample output
- * The variable is x. ENter a number
-5
-enter an exponent
+ * The variable is x. Enter a number
+4
+Enter an exponent
 3
-the polynomial you entered is 5x^3
-the first derivative of this polynomial is
-15x^2
-the second derivative of this polynomial is
-30x^1
-the third derivative of this polynomial is
-30x^0
+The polynomial you entered is 4x^3
+The first derivative of this polynomial is
+12x^2
+The second derivative of this polynomial is
+24x^1
+The third derivative of this polynomial is
+24x^0
  */
